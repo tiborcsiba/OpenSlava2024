@@ -1,0 +1,42 @@
+1. Basic code completion and code generation
+
+class Person
+string ReverseString(string input)
+int CountWords(string sentence)
+string ReadFileContent(string filePath)
+bool IsPrime(int number)
+int CalculateDaysBetweenDates(DateTime startDate, DateTime endDate)
+string HashString(string input)
+bool IsValidEmail(string email)
+T DeserializeJson<T>(string jsonString)
+
+2. Code generation from a comment
+
+// Create a generic list of 15 employees with six different departments and a salary range between 20000 and 150000
+// Write the employees to the console
+
+3. Auto completion of basic statements and expressions
+
+if, for, foreach, ...
+
+4. Refactoring of the generated code
+
+Generate this list with a collection initializer instead 
+
+5. Generating code from the inline view
+
+Filter employees who have a salary range between $50,000 and $100,000
+Group employees by their department
+Calculate the average salary for each department
+Order departments by their average salary in descending order
+Display the departments and their average salaries and employee names and their salaries within each department
+
+6. Refactoring of the generated code
+
+Rewrite the LINQ query into one single expression
+Rewrite the LINQ query using the query syntax
+
+7. Documentation generation
+8. Code explanation
+9. Unit tests generation
+10. Rewriting the code using a different programming language
